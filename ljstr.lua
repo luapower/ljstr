@@ -3,7 +3,7 @@
 --Written by Cosmin Apreutesei. Public Domain.
 
 local ffi = require'ffi'
-local C = ffi.load'ljstring'
+local C = ffi.load'ljstr'
 local ljs = {C = C}
 
 --lj_strscan_scan() from lj_strscan.c.
