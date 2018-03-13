@@ -102,6 +102,7 @@ print(ljs.strscan('123.3', ljs.STRSCAN_OPT_TOINT))
 print(ljs.strscan('123'))
 print(ljs.strscan('12.3e-1'))
 print(ljs.strscan('12.5i'))
+assert(ljs.strscan('xxx') == nil)
 assert(ljs.strscan('-1LL', 8) == -1LL)
 assert(ljs.strscan('0xFFFFFFFFFFFFFFFFULL', 8) == 0xFFFFFFFFFFFFFFFFULL)
 
